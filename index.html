@@ -4,31 +4,40 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>قاموس للذكاء الاصطناعي</title>
-<meta name="description" content="كيف تتعامل مع الذكاء الاصطناعي باحتراف: 33 خطوة على 7 مراحل، لكل خطوة: متى، ووين، وقبلها وبعدها، وكيف.">
+<meta name="description" content="كيف تتعامل مع الذكاء الاصطناعي باحتراف: 33 خطوة على 7 مراحل.">
 <meta property="og:title" content="قاموس للذكاء الاصطناعي">
 <meta property="og:description" content="33 خطوة على 7 مراحل — Claude وClaude Code وChatGPT. إعداد: معاذ الجهني">
 <meta property="og:image" content="https://muath-j.github.io/ai-glossary/cover.png">
 <meta name="twitter:card" content="summary_large_image">
+<noscript><meta http-equiv="refresh" content="0;url=ai-glossary.pdf"></noscript>
 <style>
-:root{--bg:#fff;--fg:#1d1d1f;--mut:#6b6b70;--line:#e5e5ea;--btn:#1d1d1f;--btnfg:#fff}
-@media (prefers-color-scheme:dark){:root{--bg:#111;--fg:#f2f2f2;--mut:#a0a0a6;--line:#2a2a2e;--btn:#f2f2f2;--btnfg:#111}}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,"Segoe UI",Tahoma,sans-serif;line-height:1.7}
-main{max-width:640px;margin:0 auto;padding:40px 16px 56px;text-align:center}
-img{width:100%;height:auto;border:1px solid var(--line);border-radius:14px}
-h1{font-size:30px;margin:28px 0 6px}p{color:var(--mut);margin:0 0 24px}
-.btns{display:flex;flex-direction:column;gap:12px}
-a.b{display:block;padding:15px;border-radius:12px;font-weight:700;text-decoration:none;font-size:17px}
-a.p{background:var(--btn);color:var(--btnfg)}a.s{border:1px solid var(--line);color:var(--fg)}
-small{display:block;margin-top:28px;color:var(--mut);font-size:13px}small a{color:inherit}
+:root{--bg:#fff;--fg:#1d1d1f;--mut:#6b6b70}
+@media (prefers-color-scheme:dark){:root{--bg:#111;--fg:#f2f2f2;--mut:#a0a0a6}}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,"Segoe UI",Tahoma,sans-serif;display:grid;place-items:center;min-height:100vh;text-align:center;padding:16px;box-sizing:border-box}
+p{color:var(--mut)}a{color:inherit;font-weight:700}
 </style>
 </head>
-<body><main>
-<img src="cover.png" alt="غلاف قاموس للذكاء الاصطناعي">
+<body>
+<main>
 <h1>قاموس للذكاء الاصطناعي</h1>
-<p>33 خطوة على 7 مراحل، و14 مصطلح «تحت الغطاء» — Claude وClaude Code وChatGPT</p>
-<div class="btns">
-<a class="b p" href="ai-glossary.pdf">افتح الملف</a>
-<a class="b s" href="ai-glossary.pdf" download>تحميل PDF (15MB)</a>
-</div>
-<small>إعداد: معاذ الجهني · <a href="https://x.com/mfqa_">@mfqa_</a><br>الترخيص: CC BY-NC-ND 4.0</small>
-</main></body></html>
+<p>جاري فتح الملف…</p>
+<p>ما انفتح؟ <a href="ai-glossary.pdf">اضغط هنا</a></p>
+</main>
+<script>
+(function(){
+  var pdf = "ai-glossary.pdf", done = false;
+  function go(){ if(done) return; done = true; location.replace(pdf); }
+  try {
+    var q = "p=" + encodeURIComponent("/ai-glossary/") +
+            "&t=" + encodeURIComponent(document.title) +
+            "&r=" + encodeURIComponent(document.referrer || "") +
+            "&rnd=" + Math.random().toString(36).slice(2);
+    var img = new Image();
+    img.onload = img.onerror = go;
+    img.src = "https://glossary-stats.goatcounter.com/count?" + q;
+  } catch (e) { go(); }
+  setTimeout(go, 800);
+})();
+</script>
+</body>
+</html>
